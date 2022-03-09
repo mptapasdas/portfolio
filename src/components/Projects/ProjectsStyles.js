@@ -105,4 +105,7 @@ export const TagList = styled.ul`
 export const Tag = styled.li`
     color: #d8bfbf;
     font-size: 1.5rem;
+    @media ${(props) => props.theme.breakpoints.sm} {
+        font-size: 0.8rem;
+    }
 `;
