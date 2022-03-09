@@ -39,3 +39,6 @@ export const projects = [
         id: 3,
     },
 ];
+
+export const resumeLink =
+    "https://drive.google.com/file/d/1dRBAWTAfwAv4-jcLW2vihQisn3KwJ9Vj/view?usp=sharing";
