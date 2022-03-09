@@ -34,8 +34,8 @@ export const projects = [
             "A simple to-do app made with HTML, CSS, and Javascript with CRUD functionality for data stored over local storage. User can create a to do, update its state as done, delete it and view it",
         image: "/images/todoapp_thumbnail.jpg",
         tags: ["HTML", "CSS", "Javascript"],
-        live: "https://google.com",
-        github: "https://google.com",
+        live: "mptapasdas.github.io/todo-app/",
+        github: "https://github.com/mptapasdas/todo-app",
         id: 3,
     },
 ];
