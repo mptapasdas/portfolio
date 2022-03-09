@@ -24,8 +24,8 @@ export const projects = [
         description: "Personal portfolio crafted with next js",
         image: "/images/portfolio_thumbnail.jpg",
         tags: ["Next.js", "Styled Components"],
-        live: "https://google.com",
-        github: "https://google.com",
+        live: "https://tapas-das.vercel.app/",
+        github: "https://github.com/mptapasdas/cryptoverse",
         id: 2,
     },
     {
