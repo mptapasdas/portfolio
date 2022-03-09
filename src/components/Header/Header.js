@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
+import { resumeLink } from "../../constants/constants";
 
 import {
     Container,
@@ -21,8 +22,16 @@ const Header = () => (
                         display: "flex",
                         alignItems: "center",
                         color: "white",
+                        marginLeft: "1.5rem",
                     }}>
-                    <DiCssdeck /> <span>Tapas.js</span>
+                    <DiCssdeck />
+                    <span
+                        style={{
+                            fontSize: "1.5rem",
+                            fontWeight: "bold",
+                        }}>
+                        Tapas.js
+                    </span>
                 </a>
             </Link>
         </Div1>
@@ -43,9 +52,7 @@ const Header = () => (
                 </Link>
             </li>
             <li>
-                <a
-                    href='https://drive.google.com/file/d/1dRBAWTAfwAv4-jcLW2vihQisn3KwJ9Vj/view?usp=sharing'
-                    target='_blank'>
+                <a href={resumeLink} target='_blank'>
                     <NavLink>Resume</NavLink>
                 </a>
             </li>
