@@ -44,7 +44,7 @@ const Header = () => (
             </li>
             <li>
                 <a
-                    href='https://drive.google.com/file/d/1eAwXMoDr9x-a9RtOBOwF9fXEr5AlnhYD/view?usp=sharing'
+                    href='https://drive.google.com/file/d/1dRBAWTAfwAv4-jcLW2vihQisn3KwJ9Vj/view?usp=sharing'
                     target='_blank'>
                     <NavLink>Resume</NavLink>
                 </a>
