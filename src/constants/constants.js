@@ -5,7 +5,7 @@ export const projects = [
             "A fully responsive MERN stack web app where a user can access to hundreds of free premium courses from best instructors around the world. User can login/register and then mark his/her favourite courses and access them across multiple devices",
         image: "/images/freedemy_thumbnail.png",
         tags: ["Mongo", "Express", "React", "Node", "Bootstrap"],
-        live: "https://freedemy-test.netlify.app/",
+        live: "https://freedemy.vercel.app/",
         github: "https://github.com/mptapasdas/freedemy",
         id: 0,
     },
